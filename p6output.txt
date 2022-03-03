@@ -12,3 +12,5 @@ The index of the substring helloworld in the string hello is 0
 Enter a string:     helios
 Enter the string to be searched:    ios
 The index of the substring helios in the string ios is 3
+
+
