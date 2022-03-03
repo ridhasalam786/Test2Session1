@@ -1,1 +1,11 @@
+ gcc -g p4original.c ; ./a.out
+Enter value of n:   5
+Fibonacci series: 
+0   1   1   2   3   8 
 
+
+
+ gcc -g p4original.c ; ./a.out
+Enter value of n:   10
+Fibonacci series: 
+0   1   1   2   3   5   8   13  21  34  89 
