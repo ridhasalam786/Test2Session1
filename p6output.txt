@@ -1,1 +1,14 @@
+ gcc -g p6original.c ; ./a.out
+Enter a string:     helloworldhello
+Enter the string to be searched:    world
+The index of the substring helloworldhello in the string world is 5
 
+ gcc -g p6original.c ; ./a.out
+Enter a string:     helloworld
+Enter the string to be searched:    hello
+The index of the substring helloworld in the string hello is 0
+
+ gcc -g p6original.c ; ./a.out
+Enter a string:     helios
+Enter the string to be searched:    ios
+The index of the substring helios in the string ios is 3
