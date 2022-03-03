@@ -1,1 +1,7 @@
+ gcc -g p3original.c -lm; ./a.out
+Enter a number:     3
+3 is a prime number
 
+ gcc -g p3original.c -lm; ./a.out
+Enter a number:     6
+6 is not a prime number
