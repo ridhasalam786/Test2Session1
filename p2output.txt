@@ -1,1 +1,23 @@
+ gcc -g p2original.c -lm; ./a.out
+Enter the x-coordinate:     2
+Enter the y-coordinate:     1
+Enter the x-coordinate:     3
+Enter the y-coordinate:     4
+Enter the x-coordinate:     1
+Enter the y-coordinate:     2
+The x-coordinates are 2.000000, 3.000000,1.000000. 
+The y-coordinates are 1.000000, 4.000000,2.000000. 
+The points (2.000000,1.000000),(3.000000,4.000000) & (1.000000,2.000000) form a triangle.
 
+
+
+ gcc -g p2original.c -lm; ./a.out
+Enter the x-coordinate:     2
+Enter the y-coordinate:     1
+Enter the x-coordinate:     2 
+Enter the y-coordinate:     1
+Enter the x-coordinate:     2
+Enter the y-coordinate:     1
+The x-coordinates are 2.000000, 2.000000,2.000000. 
+The y-coordinates are 1.000000, 1.000000,1.000000. 
+The points (2.000000,1.000000),(2.000000,1.000000) & (2.000000,1.000000) do not form a triangle.
