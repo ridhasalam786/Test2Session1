@@ -11,21 +11,30 @@ void input_string(char *a,char *b)
 
 int str_sub(char *a,char *b)
 {
-  int index;
+  int index=-1;
   int n=strlen(a);
+  int m=strlen(b);
   for(int i=0;i<n;i++)
     {
+     while(a[i]==b[m-1]) 
       if(a[i]==b[0])
+      {
         index=i;
+      }
       else
         continue;
+      break;
     }
   return index;
 }
 
 void output(char *a,char *b,int index)
 {
-  printf("The index of the substring %s in the string %s is %d",a,b,index);
+   if(index==-1)
+    printf("No substring");
+  else
+    printf("The index of the substring %s in the string %s is %d",b,a,index);
+ 
 }
 
 int main()
