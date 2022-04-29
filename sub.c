@@ -28,8 +28,7 @@ int str_2_sub(char *a,char *b,int index)
 {
   int index_2=-1;
   int n=strlen(a);
-  int j=index+1;
-  for(int j;j<n;j++)
+  for(int j=index+1;j<n;j++)
     {
       if(a[j]==b[0])
         index_2=j;
@@ -44,13 +43,13 @@ int str_2_sub(char *a,char *b,int index)
 void output(char *a,char *b,int index ,int index_2 )
 {
   if(index!=-1)
-    printf("The index of the substring %s in the string %s is %d",b,a,index);
+    printf("The index of the substring %s in the string %s is %d \n",b,a,index);
   if(index_2!=-1)
   {
-    printf("The second index of the substring %s in the string %s is %d",b,a,index_2);
+    printf("The second index of the substring %s in the string %s is %d \n",b,a,index_2);
   }
   else
-     printf("No second substring present"); 
+     printf("No second substring present \n"); 
 
   
 }
